@@ -22,9 +22,10 @@ knitr::opts_chunk$set(
 
 [![R build status](https://github.com/MattCowgill/readrba/workflows/R-CMD-check/badge.svg)](https://github.com/MattCowgill/readrba/actions) [![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html) [![Codecov test coverage](https://codecov.io/gh/MattCowgill/readrba/branch/master/graph/badge.svg)](https://app.codecov.io/gh/MattCowgill/readrba?branch=master)
 [![CRAN status](https://www.r-pkg.org/badges/version/readrba)](https://CRAN.R-project.org/package=readrba)
+[![R-CMD-check](https://github.com/MattCowgill/readrba/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/MattCowgill/readrba/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-Get data from the [Reserve Bank of Australia](https://rba.gov.au/statistics/tables/) in a [tidy](https://tidyr.tidyverse.org/articles/tidy-data.html) [tibble](https://tibble.tidyverse.org)! 
+Get data from the [Reserve Bank of Australia](https://rba.gov.au/statistics/tables/) in a [tidy](https://tidyr.tidyverse.org/articles/tidy-data.html) [tibble](https://tibble.tidyverse.org). 
 
 ## Installation
 Install from CRAN using:
