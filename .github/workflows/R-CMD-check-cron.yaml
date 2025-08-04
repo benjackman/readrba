@@ -17,7 +17,7 @@ jobs:
       - uses: r-lib/actions/setup-pandoc@v2
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          cache-version: 2
+          cache-version: 4
           extra-packages: |
             any::ggplot2
             any::rcmdcheck
