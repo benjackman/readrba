@@ -126,14 +126,14 @@ tidy_rba_normal <- function(excel_sheet, .table_title, series_id = NULL) {
 
   all_na_col <- purrr::map_lgl(
     excel_sheet,
-    \(x) all(is.na(x))
+    function(x) all(is.na(x))
   )
 
   excel_sheet <- excel_sheet[!all_na_col]
 
   first_four_na_col <- purrr::map_lgl(
     excel_sheet,
-    \(x) all(is.na(x[1:4]))
+    function(x) all(is.na(x[1:4]))
   )
 
   excel_sheet <- excel_sheet[!first_four_na_col]
